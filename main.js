@@ -22,7 +22,7 @@ Webcam.snap(function(data_uri){
 
 console.log("ml5 version"+ml5.version);
 
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/-3WpjoD2w/model.json',modelLoaded)
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/3BnUz0XvX/model.json',modelLoaded)
 
 
 function modelLoaded(){
